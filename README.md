@@ -6,7 +6,114 @@ PocketSmart AI is an AI-powered personal finance assistant designed to help user
 PocketSmart AI helps users make better financial decisions by analyzing their income, expenses, spending habits, and savings goals. The system provides simple and personalized suggestions to control unnecessary spending and improve savings.
 2. Main Objectives
 Track daily and monthly expenses.
-Create personalized budgets.
+Create personalizedPROJECT DESIGN PHASE
+1. Introduction
+The Project Design Phase defines the overall structure, functionality, and appearance of the PocketSmart AI: Your Smart Budget & Recommendation Assistant. In this phase, the requirements identified earlier are converted into a clear system design.
+The system is designed to help users manage their income and expenses, create budgets, track spending, and receive personalized recommendations using AI.
+2. System Architecture
+PocketSmart AI follows a simple layered architecture:
+User → User Interface → Application/AI Module → Database → Results
+Main Components
+User Interface
+Registration and login
+Dashboard
+Income and expense entry
+Budget management
+Recommendation display
+Application Module
+Processes user information
+Calculates income, expenses, and savings
+Tracks budget limits
+Generates spending insights
+AI Recommendation Module
+Analyses spending patterns
+Identifies unnecessary expenses
+Provides personalized saving suggestions
+Recommends suitable products/services according to the user's budget
+Database
+Stores user details
+Income records
+Expense records
+Budget information
+Recommendation history
+3. Module Design
+a) User Management Module
+Allows users to register, log in, and manage their profile.
+b) Expense Management Module
+Users can add, edit, delete, and view their daily expenses.
+c) Budget Management Module
+Users can set monthly or category-wise budgets and monitor their spending.
+d) AI Recommendation Module
+Analyses the user's financial data and provides personalized recommendations.
+e) Dashboard Module
+Displays total income, total expenses, remaining budget, savings, and spending patterns.
+4. Database Design
+The major database tables are:
+User – stores user account details.
+Income – stores income information.
+Expense – stores expense details.
+Budget – stores budget limits.
+Recommendation – stores AI-generated recommendations.
+Example
+User Table
+Field
+Description
+User_ID
+Unique user ID
+Name
+User name
+Email
+User email
+Password
+Login password
+Expense Table
+Field
+Description
+Expense_ID
+Unique expense ID
+User_ID
+User reference
+Category
+Expense category
+Amount
+Expense amount
+Date
+Expense date
+5. User Interface Design
+The application will contain the following screens:
+Login Page
+Registration Page
+Home/Dashboard
+Add Income
+Add Expense
+Set Budget
+Expense History
+AI Recommendations
+Profile/Settings
+The interface will be designed to be simple, user-friendly, and easy to navigate.
+6. Data Flow Design
+The user enters income and expense information into the system. The application stores the information in the database. The AI module analyses the stored data and generates useful recommendations. The results are then displayed on the user's dashboard.
+Input → Processing → Database → AI Analysis → Recommendation → Output
+7. Security Design
+The system will provide basic security features such as:
+User authentication
+Password protection
+Secure storage of user information
+User-specific access to financial data
+Input validation
+8. Expected Output
+The designed system will help users:
+Track their income and expenses.
+Create and manage budgets.
+Monitor spending habits.
+Identify unnecessary expenses.
+Understand their savings.
+Receive personalized AI-based recommendations.
+9. Conclusion
+The Project Design Phase provides the technical structure and layout of PocketSmart AI. It defines the modules, database, user interface, data flow, and security requirements. This design serves as a blueprint for the development and implementation of the project.
+Add a clear problem statement
+Include use-case and data-flow diagrams
+Clarify the AI recommendation budgets.
 Categorize expenses automatically.
 Analyze spending patterns.
 Provide AI-based financial recommendations.
