@@ -1,1 +1,93 @@
-Project Development Phase
+Project Development PhaseProject Development Phase – PocketSmart AI: Your Smart Budget & Recommendation Assistant
+
+The Project Development Phase is the stage where the design of PocketSmart AI is converted into a working application. The frontend, backend, database, and recommendation features are developed and integrated.
+
+1. Frontend Development
+
+The user interface is developed using HTML, CSS, and JavaScript. The dashboard includes:
+
+Income and expense summary
+
+Budget status
+
+Savings information
+
+Expense charts
+
+Recent transactions
+
+Recommendation section
+
+
+2. Backend Development
+
+The backend handles the main application logic, including:
+
+User registration and login
+
+Adding and managing transactions
+
+Budget calculations
+
+Expense categorization
+
+Generating financial recommendations
+
+
+3. Database Development
+
+A database is created to securely store:
+
+User details
+
+Income records
+
+Expense records
+
+Budget limits
+
+Categories
+
+AI recommendations
+
+
+4. AI Recommendation Development
+
+The recommendation engine analyzes the user's spending patterns and generates useful suggestions. For example:
+
+> “Your food expenses are higher than your monthly budget. Try reducing unnecessary food purchases.”
+
+
+
+5. Receipt/OCR Development
+
+A receipt feature is developed to extract information such as:
+
+Amount
+
+Date
+
+Store name
+
+Expense category
+
+
+This reduces the need for manual data entry.
+
+6. Dashboard and Reports
+
+Charts and graphs are integrated to help users understand their financial situation easily. The system displays monthly spending, category-wise expenses, savings, and budget usage.
+
+7. Integration
+
+All modules are connected together:
+
+User Interface → Backend → Database → AI Recommendation Engine → Dashboard
+
+8. Testing During Development
+
+Each feature is tested to identify and fix errors. Login, transaction entry, budget calculation, database operations, and recommendations are checked before final deployment.
+
+9. Expected Result
+
+At the end of the development phase, a functional PocketSmart AI application is produced that helps users track expenses, manage budgets, monitor savings, and receive personalized financial recommendations.
