@@ -1,1 +1,56 @@
-Project Testing Phase
+Project Testing PhaseProject Testing Phase – PocketSmart AI: Smart Budget & Recommendation Assistant
+
+The Project Testing Phase is carried out to verify that PocketSmart AI works correctly, reliably, and meets the project requirements. Each module is tested individually and then tested together as a complete system.
+
+1. Testing Objectives
+
+Identify and fix errors.
+
+Verify that all features work correctly.
+
+Check the accuracy of expense and budget calculations.
+
+Ensure recommendations are generated properly.
+
+Check database operations and data security.
+
+Ensure the application is easy to use.
+
+
+2. Types of Testing
+
+1. Unit Testing
+Each module, such as login, expense entry, and budget calculation, is tested separately.
+
+2. Integration Testing
+Checks whether the frontend, backend, database, and recommendation engine work correctly together.
+
+3. Functional Testing
+Verifies important functions such as adding expenses, setting budgets, and generating reports.
+
+4. Usability Testing
+Checks whether users can easily navigate and use the application.
+
+5. Performance Testing
+Checks the application's response time and performance when handling multiple transactions.
+
+3. Sample Test Cases
+
+Test Case	Expected Result
+
+User login with valid details	Login successful
+Add a new expense	Expense saved successfully
+Set monthly budget	Budget displayed correctly
+Add expense above budget	Warning/recommendation displayed
+Delete transaction	Transaction removed
+View expense chart	Correct chart displayed
+Generate recommendation	Suitable recommendation displayed
+
+
+4. Error Handling
+
+Errors such as invalid input, missing information, incorrect amounts, and database failures are identified and handled appropriately.
+
+5. Final Testing Result
+
+After testing and fixing identified errors, the PocketSmart AI system is verified to provide accurate expense tracking, budget monitoring, financial analysis, and personalized recommendations.
