@@ -1,1 +1,103 @@
-Requirement Analysis Phase
+Requirement Analysis PhaseRequirement Analysis Phase – PocketSmart AI: Smart Budget & Recommendation Assistant
+
+The Requirement Analysis Phase identifies the user needs, system features, resources, and technical requirements needed to develop PocketSmart AI.
+
+1. Project Requirement
+
+PocketSmart AI should provide a simple platform for users to record expenses, manage budgets, track savings, and receive smart financial recommendations.
+
+2. Functional Requirements
+
+The system should:
+
+Allow users to enter income and expenses.
+
+Categorize expenses such as food, travel, shopping, and bills.
+
+Allow users to set monthly budgets.
+
+Calculate total income, expenses, and remaining balance.
+
+Display spending through charts and reports.
+
+Identify excessive spending.
+
+Generate personalized recommendations.
+
+Allow users to edit and delete transactions.
+
+Store financial records securely.
+
+
+3. Non-Functional Requirements
+
+User-friendly: Simple and easy-to-use interface.
+
+Performance: Fast response to user actions.
+
+Security: Protect user financial information.
+
+Reliability: Provide accurate calculations.
+
+Scalability: Support additional features in the future.
+
+Availability: Application should be accessible when required.
+
+
+4. Hardware Requirements
+
+Computer/Laptop or smartphone
+
+Minimum 4 GB RAM
+
+Internet connection
+
+Sufficient storage space
+
+
+5. Software Requirements
+
+HTML
+
+CSS
+
+JavaScript
+
+Python/Node.js
+
+MySQL
+
+Web browser
+
+Code editor
+
+
+6. User Requirements
+
+The user should be able to:
+
+1. Register/login.
+
+
+2. Add income and expenses.
+
+
+3. Set a budget.
+
+
+4. View spending summaries.
+
+
+5. Monitor savings.
+
+
+6. Receive AI-based recommendations.
+
+
+7. View reports and charts.
+
+
+
+7. Expected Outcome
+
+The requirement analysis provides a clear foundation for developing PocketSmart AI, ensuring that the final application meets user needs and provides effective budget management and personalized financial recommendations.
