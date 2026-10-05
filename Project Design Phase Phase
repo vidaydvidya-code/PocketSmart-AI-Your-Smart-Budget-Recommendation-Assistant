@@ -1,1 +1,90 @@
-Project Design Phase Phase
+Project Design Phase PhaseProject Design Phase – PocketSmart AI: Smart Budget & Recommendation Assistant
+
+1. System Design
+
+PocketSmart AI is designed as a web-based budget management system that helps users track expenses, manage budgets, and receive personalized financial recommendations.
+
+2. Main Modules
+
+User Module – User registration and login.
+
+Dashboard Module – Displays income, expenses, savings, and budget status.
+
+Expense Management – Add, edit, delete, and categorize expenses.
+
+Budget Management – Set monthly/category-wise budgets.
+
+AI Recommendation Module – Provides personalized spending and saving suggestions.
+
+Receipt/OCR Module – Extracts expense information from receipts.
+
+Reports Module – Generates expense summaries and charts.
+
+
+3. System Architecture
+
+User → Web Interface → Application Logic → Database → AI Recommendation Engine
+
+The user enters financial information through the web interface. The application processes and stores the data in the database. The AI recommendation engine analyzes spending patterns and provides suitable suggestions.
+
+4. Database Design
+
+Important tables include:
+
+Users – User ID, name, email, password
+
+Transactions – Transaction ID, user ID, amount, category, date
+
+Budgets – Budget ID, user ID, category, limit
+
+Recommendations – Recommendation ID, user ID, message, date
+
+
+5. User Interface Design
+
+The dashboard contains:
+
+Total income
+
+Total expenses
+
+Remaining balance
+
+Savings
+
+Budget progress
+
+Expense charts
+
+Recent transactions
+
+AI-generated recommendations
+
+
+6. Recommendation Design
+
+The system analyzes expenses and identifies unnecessary or excessive spending. It can provide recommendations such as:
+
+“You are spending more on food this month.”
+
+“Try reducing entertainment expenses.”
+
+“You can save ₹2,000 by staying within your monthly budget.”
+
+
+7. Technology Used
+
+Frontend: HTML, CSS, JavaScript
+
+Backend: Python/Node.js
+
+Database: MySQL
+
+AI: Recommendation/AI-based analysis
+
+Charts: Chart.js
+
+
+8. Expected Output
+
+The final system provides a simple and interactive platform where users can track expenses, manage budgets, understand spending habits, and receive smart recommendations for better financial management.
